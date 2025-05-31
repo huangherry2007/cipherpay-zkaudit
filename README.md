@@ -38,4 +38,4 @@ cargo run --release
 - Optional: Web verifier in React
 
 ## License
-MIT © CipherPay Labs
+MIT © AppFounder Corp.
