@@ -1,0 +1,7 @@
+# This file ensures the docs/ directory is tracked by git.
+# The docs/ directory contains:
+# - Architecture documentation
+# - API documentation
+# - Development guides
+# - Whitepapers
+# - Other technical documentation 

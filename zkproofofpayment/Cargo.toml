@@ -1,0 +1,11 @@
+[workspace]
+members = ["guest", "host"]
+
+[package]
+name = "zkpop"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[dev-dependencies]

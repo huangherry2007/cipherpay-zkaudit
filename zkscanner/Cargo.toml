@@ -1,13 +1,13 @@
 [package]
-name = "zkpop"
+name = "zkscanner"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-risc0-zkvm = "0.19.0"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 thiserror = "1.0"
+tokio = { version = "1.0", features = ["full"] }
 
 [dev-dependencies]
 tokio-test = "0.4" 

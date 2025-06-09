@@ -1,0 +1,29 @@
+[package]
+name = "cipherpay-zkaudit"
+version = "0.1.0"
+edition = "2021"
+authors = ["AppFounder Corp"]
+description = "Compliance, proof-of-payment, and selective disclosure layer for CipherPay"
+
+[dependencies]
+risc0-zkvm = "0.19.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "1.0"
+tokio = { version = "1.0", features = ["full"] }
+anyhow = "1.0"
+
+[dev-dependencies]
+tokio-test = "0.4"
+tempfile = "3.8"
+mockall = "0.11"
+
+[workspace]
+members = [
+    "zkpop",
+    "zkscanner",
+    "zkverifier",
+    "zkverifier-ui",
+    "zkproofofpayment",
+    "zkproofs"
+] 
